@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
  })
 
 app.listen(5000, () => {
-  console.log(magenta(`Server launched 🚀 and running on port 5000.`))
+  console.log(magenta(`Server launched 🚀 and running on port 5000!`))
 })
 
 module.exports = app
